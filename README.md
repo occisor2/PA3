@@ -27,6 +27,8 @@ Run from the build directory.
 
 ## Plot
 
+ ![Alt text](/back_off_plots.png?raw=true)
+
  My implemention is plotted using gnuplot. The script used to plot it
  is in the _plot.gpi_ file located in the root of the project.
  
@@ -35,4 +37,4 @@ Run from the build directory.
  
 ## Writeup
 
-The writeup is located in the top-level writeup.docx file.
+The writeup is located in the top-level writeup.png file.
