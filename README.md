@@ -16,7 +16,7 @@ make
 
 Running the executable will run a full simulation for each backoff
 algorithm. Each algorithm has its own output file. The format is a csv
-file with the numbers of devices in one column and the average latency
+file with the number of devices in one column and the average latency
 in the second.
 
 Run from the build directory.
@@ -25,10 +25,10 @@ Run from the build directory.
 ./pa3
 ```
 
-## Plotting
+## Plot
 
  My implemention is plotted using gnuplot. The script used to plot it
- is in the _plot.gpi_ located in the root of the project.
+ is in the _plot.gpi_ file located in the root of the project.
  
  The generated plot is included in the writeup and in a separate
  top-level _backoff_plots.png_ file.
