@@ -35,12 +35,9 @@ static void runSimulation(std::function<size_t(size_t)> protocol, size_t protoco
 
 int main(int argc, char* argv[])
 {
-	if (argc < 2)
-	{
-		runSimulation(PA3::linear, PA3::linearInit, "linear.txt");
-		runSimulation(PA3::logLog, PA3::logLogInit, "loglog.txt");
-		runSimulation(PA3::binaryExp, PA3::binaryExpInit, "binexp.txt");
-	}
+	runSimulation(PA3::linear, PA3::linearInit, "linear.txt");
+	runSimulation(PA3::logLog, PA3::logLogInit, "loglog.txt");
+	runSimulation(PA3::binaryExp, PA3::binaryExpInit, "binexp.txt");
 	
 	return EXIT_SUCCESS;
 }

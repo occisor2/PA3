@@ -44,11 +44,8 @@ size_t PA3::simlulate(std::function<size_t(size_t)> protocol, size_t protWinInit
 
 		auto [sucesses, lastSuccess] = countSuccesses(win);
 
-		if (sucesses > 0)
-		{
-			if (0 == (remaining -= sucesses))
-				return latency += lastSuccess;	
-		}
+		if ( sucesses > 0 && 0 == (remaining -= sucesses))
+			return latency += lastSuccess;	
 
 		// Add window size to latency
 		latency += win.size();
