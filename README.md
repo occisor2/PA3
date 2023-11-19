@@ -37,4 +37,4 @@ Run from the build directory.
  
 ## Writeup
 
-The writeup is located in the top-level writeup.png file.
+The writeup is located in the top-level writeup.pdf file.
