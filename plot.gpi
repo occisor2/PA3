@@ -1,0 +1,11 @@
+# plot the 3 backoff algorithms
+set output "backoff-plots.png"
+
+set xlabel "N Devices"
+set ylabel "Average Latency"
+
+set autoscale
+
+plot "build/linear.txt" using 1:2 title "Linear", \
+"build/loglog.txt" using 1:2 title "LogLog", \
+"build/binexp.txt" using 1:2 title "BEP"
