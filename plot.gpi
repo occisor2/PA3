@@ -1,4 +1,5 @@
 # plot the 3 backoff algorithms
+set term png
 set output "backoff-plots.png"
 
 set xlabel "N Devices"
