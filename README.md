@@ -27,7 +27,7 @@ Run from the build directory.
 
 ## Plot
 
- ![Alt text](/back_off_plots.png?raw=true)
+ ![Alt text](/backoff-plots.png?raw=true "Plot")
 
  My implemention is plotted using gnuplot. The script used to plot it
  is in the _plot.gpi_ file located in the root of the project.
